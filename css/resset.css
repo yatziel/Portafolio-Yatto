@@ -13,10 +13,15 @@
 */
 /* Aquí definimos las Custom properties */
 :root {
-  --negro: #393939;
+	/* Color */
+	--morado: #5130D3;
+	--lavanda: #BCAFEE;
+	--purpura: #301C83;
+	--blanco: #F8F9F8;
+  --negro: #050A08;
   /* Tipografía */
   --tipo-principal: "Poppins", sans-serif;
-  --tipo-secundaria: Verdana;
+	--tipo-secundaria: "Montserrat", sans-serif;
 }
 
 /* Las adaptamos al modo oscuro */
@@ -148,6 +153,7 @@ body {
   font-size: 100%;
   font-family: var(--tipo-principal);
   color: var(--negro);
+	background-color: var(--blanco);
   /* opcional */
   line-height: 1.4em;
   /* opcional */

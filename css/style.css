@@ -51,17 +51,20 @@
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	background-color: lightblue;
+
 }
 .hero-wrapper{
 	max-width: 1200px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	background-color: lightcoral;
+
 }
 .hero-content{
 	padding: 24px;
-	background-color: lightgreen;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
 }
 .hero-title{
 	font-size: 64px;
@@ -69,20 +72,22 @@
 	line-height: 64px;
 	color: var(--morado);
 	margin-bottom: 24px;
-	background-color: lightsalmon;
+
 }
 .hero-paragraph{
 	font-size: 22px;
-	line-height: 28px;
+	line-height:32px;
 	color: var(--negro);
 	margin-bottom: 24px;
-	background-color: lightseagreen;
+	hyphens: none;
 }
+
 .hero-button{
+	font-size: 28px;
 	width: fit-content;
 	color: var(--blanco);
-	font-weight: 900;
-	padding: 12px 24px;
+	font-weight: 600;
+	padding: 16px 24px;
 	border-radius: 12px;
 	background-color: var(--morado);
 }
@@ -92,8 +97,13 @@
 }
 
 .hero-profile{
-	background-color: darksalmon;
+	display: flex;
+	justify-content: center;
+	padding: 24px;
+
 }
 .hero-image{
-	background-color: lightblue;
+	width: 90%;
+	background-color: var(--morado);
+	border-radius: 50%;
 }
